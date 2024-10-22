@@ -14,12 +14,12 @@
 
             <p>
                 <label for="nome_login">Usuario:</label>
-                <input name="usuario_login" type="text">
+                <input id="usuario_login" name="usuario_login" type="text">
             </p>
 
             <p>
                 <label for="senha_login">Senha:</label>
-                <input id="senha_login" name="senha_login" type="password" required>
+                <input id="senha_login" name="senha_login" type="password">
             </p>
 
             <p>
@@ -27,9 +27,18 @@
                     <input type="checkbox" name="manterlogado" value="sim"/>Manter Logado
                 </label>
             </p>
-            <p><button type="submit">Login</button></p>
-            <p><a href="#URL">Ainda não tem conta?</a></p>
-            <p><a href="#URL">Esqueceu a Senha?</a></p>
+
+            <p>
+                <button type="submit">Login</button>
+            </p>
+
+            <p>
+                <a href="./cadastro.html">Ainda não tem conta?</a>
+            </p>
+
+            <p>
+                <a href="./reset.html">Esqueceu a Senha?</a>
+            </p>
 
         </form>
     </body>
